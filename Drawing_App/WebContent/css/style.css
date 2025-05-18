@@ -1,0 +1,267 @@
+/**
+ * @author Nick Sullivan
+ */
+
+
+*{
+
+	outline : none;
+	text-decoration : none;
+}
+
+body{
+
+	background-color : #FFFFFF;
+	margin : 0px;
+	padding : 0px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+
+	overflow : hidden; /*Stops scrolling*/
+
+	-webkit-user-select : none;
+	-khtml-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+}
+
+div{}
+
+hgroup{
+
+	margin : 0px;
+	padding : 6px 6px 12px 6px;
+}
+
+<!--
+UI LISTS
+MAIN MENU
+-->
+
+div{}
+
+.UI_MainMenu{}
+
+.UI_MainMenu hgroup{
+
+	float : left;
+}
+
+.UI_MainMenu div{
+
+	margin : 0px;
+	padding : 1.75px;
+	float : left;
+}
+
+.UI_MainMenu_Options{
+
+	position : absolute;
+}
+
+#MainMenu_Container{
+
+	visibility : hidden;
+}
+
+<!--
+UI LISTS
+OBJECT PROPERTIES
+-->
+
+div{}
+
+.UI_ObjectProperties{
+
+	display: inline-block;
+	width : 100%;
+	height : 47px;
+}
+
+.UI_ObjectProperties hgroup{
+
+	float : left;
+}
+
+.UI_ObjectProperties div{
+
+	margin : 0px;
+	padding : 1.75px;
+	float : left;
+}
+
+
+<!--
+UI LISTS
+TOOLBAR
+-->
+
+li{
+
+	display : list-item;
+	list-style-type : none;
+	text-align : left;
+}
+
+ol{
+
+	list-style-type : none;
+}
+
+ol ol{
+
+	list-style-type : none;
+	padding-left : 0px;
+}
+
+
+<!--
+UI TOOLBAR
+-->
+
+div{}
+
+.UI_ToolBar{
+
+	/*
+	 *
+	position : absolute;
+	top : 92px;
+	left : 0px;
+	 */
+
+
+	float : left;
+	width : 50px;
+	padding : 0px;
+	margin : 0px;
+	z-index: 10;
+}
+
+.UI_ToolBarItems{
+
+	list-style-type : none;
+	padding : inherit;
+	margin : inherit;
+}
+
+/*
+.ToolBarItems_Section{
+
+	border-bottom : solid black 1px;
+}
+
+ol:last-child{
+
+	border-bottom : none black 0px;
+}
+*/
+
+#ToolBarItems_Select{}#ToolBarItems_Create{}
+#ToolBarItems_Canvas{}
+
+.UI_ToolBarItem{
+
+	padding : 0px;
+	margin : 0px;
+	width : 50px;
+	height : 50px;
+	overflow : hidden;
+}
+
+.UI_ToolBarItem input[ type="radio" ]{
+
+	position : relative;
+	top : -65px;
+	left : -15px;
+	width : 80px;
+	height : 80px;
+	margin : auto;
+	opacity : 0;
+
+	appearance : none;
+	-webkit-appearance : none;
+	-moz-appearance : none;
+}
+
+.UI_ToolBarItem div{
+
+	position : inherit;
+	width : inherit;
+	height : inherit;
+	padding : inherit;
+	overflow : inherit;
+}
+
+
+.UI_ToolBarItem img{
+
+	position : relative;
+	top : 0px;
+	left : 0px;
+}
+
+
+<!--
+UI CANVAS
+-->
+
+canvas{}
+
+#Canvas_Container{
+
+	position : relative;
+	left : 50px;
+	pointer-events : none;
+
+	/*top : 80px;
+	width : 100%;
+	bottom : 0px;
+	margin : auto;
+	border : 1px solid red;*/
+	/**/
+
+}
+
+#Canvas_Draw{
+
+	/*border : 2px solid red;*/
+	z-index : 0;
+}
+
+
+
+#Canvas_Grid{
+
+	/*border : 2px solid black;*/
+	z-index : -1;
+}
+
+.UI_Canvas{
+
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	margin : 0%;
+
+	pointer-events : auto;
+}
+
+/*
+#Canvas_Adorners{
+
+	left : 304px;
+	border : 2px solid green;
+	z-index : 1;
+	pointer-events : none;
+}
+
+
+#Canvas_Selection{
+
+	left : 608px;
+	border : 2px solid blue;
+	z-index : 2;
+}
+*/
