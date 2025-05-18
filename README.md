@@ -1,4 +1,4 @@
-nsdesign.draw.github.com
+nsdesign
 ========================
 
 Drawing Web App
