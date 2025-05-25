@@ -1,3 +1,16 @@
 {
-    "livePreview.defaultPreviewPath": "/Drawing_App/index.html"
+    "livePreview.defaultPreviewPath": "/Drawing_App/index.html",
+    "cSpell.words": [
+        "colour",
+        "Colour",
+        "initialise",
+        "Initialise",
+        "mouseoutpoint",
+        "mouseoutshape",
+        "mouseoverpoint",
+        "mouseovershape",
+        "shapecreated",
+        "waspoint",
+        "wasshape"
+    ]
 }
